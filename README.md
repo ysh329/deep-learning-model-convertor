@@ -1,5 +1,5 @@
 # Deep Learning Model Convertors
-Because of the different framework， the awesome convertors of deep learning models for different frameworks occur. It should be noted that I did not test all the converters, so I could not guarantee that each was available. But I also hope this convertor may help you!
+Because of these different frameworks, the awesome convertors of deep learning models for different frameworks occur. It should be noted that I did not test all the converters, so I could not guarantee that each was available. But I also hope this convertor may help you!
 
 The sheet below is a overview of all convertors in github (not only contain official provided and more is user-self accomplished). I just make a little work to collect these convertors. Also, hope everyone can support this project to help more people who're also crazy because of various framework.
 
@@ -59,6 +59,30 @@ a neural network convertor for models among caffe tensorfloe keras
 ## Theano/Lasagne convertor  
 
 Convert various model **to Theano/Lasagne model**.  
+
+### [an-kumar/caffe-theano-conversion](https://github.com/an-kumar/caffe-theano-conversion)
+
+This is part of a project for CS231N at Stanford University, written by Ankit Kumar, Mathematics major, Class of 2015
+
+This is a repository that allows you to convert pretrained caffe models into models in Lasagne, a thin wrapper around Theano. You can also convert a caffe model's architecture to an equivalent one in Lasagne. You do not need caffe installed to use this module.
+
+Currently, the following caffe layers are supported:
+```
+* Convolution
+* LRN
+* Pooling
+* Inner Product
+* Relu
+* Softmax
+```
+
+### [kencoken/caffe-model-convert](https://github.com/kencoken/caffe-model-convert)
+
+Convert models from Caffe to Theano format.
+
+### [piergiaj/caffe-to-theano](https://github.com/piergiaj/caffe-to-theano)
+
+Convert a Caffe Model to a Theano Model. This currently works on AlexNet, but should work for any Caffe model that only includes layers that have been impemented.
 
 ## Neon convertor  
 
