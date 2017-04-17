@@ -1,5 +1,7 @@
-# dl-model-convertor
-The convertor of deep learning models for different frameworks.
+# Deep Learning Model Convertors
+Because of the different framework， the awesome convertors of deep learning models for different frameworks occur. It should be noted that I did not test all the converters, so I could not guarantee that each was available. But I also hope this convertor may help you!
+
+The sheet below is a overview of all converter in github (not only contain officially provided and more is user-self accomplished). I just make a little work to collect these convertors. Also, hope everyone can support this project to help more people who're also crazy because of various framework.
 
 | convertor | mxnet | caffe | theano/lasagne | neon | pytorch | torch | keras | darknet | tensorflow |
 | --------- |:-----:| :-----:|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -17,7 +19,7 @@ The convertor of deep learning models for different frameworks.
 
 ## MXNet convertor  
 
-Convert various model to MXNet model.  
+Convert various model **to MXNet model**.  
 
 ### [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter)
 
@@ -32,32 +34,32 @@ This is a tool to convert the deep-residual-networks from caffe model to mxnet m
 
 ## Caffe convertor  
 
-Convert various model to Caffe model.  
+Convert various model **to Caffe model**.  
 
 ## Theano/Lasagne convertor  
 
-Convert various model to Theano/Lasagne model.  
+Convert various model **to Theano/Lasagne model**.  
 
 ## Neon convertor  
 
-Convert various model to Neon model.  
+Convert various model **to Neon model**.  
 
 ## PyTorch convertor  
 
-Convert various model to PyTorch model.  
+Convert various model **to PyTorch model**.  
 
 ## Torch convertor  
 
-Convert various model to Torch model.  
+Convert various model **to Torch model**.  
 
 ## Keras convertor  
 
-Convert various model to Keras model.  
+Convert various model **to Keras model**.  
 
 ## Darknet convertor  
 
-Convert various model to Darknet model.  
+Convert various model **to Darknet model**.  
 
 ## TensorFlow convertor  
 
-Convert various model to TensorFlow model.  
+Convert various model **to TensorFlow model**.  
