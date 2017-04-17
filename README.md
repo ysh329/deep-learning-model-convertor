@@ -13,9 +13,22 @@ The convertor of deep learning models for different frameworks.
 |**darknet**| None | None | None | None | None | None | None |   -   | [darkflow](https://github.com/thtrieu/darkflow) [lego_yolo](https://github.com/dEcmir/lego_yolo) |
 |**tensorflow**| None |[nn_tools](https://github.com/hahnyuan/nn_tools)| None | None | None | None |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow)| None |   -   |
 
+# Brief Intro. of Convertors
+
 ## MXNet convertor  
 
 Convert various model to MXNet model.  
+
+### [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter)
+
+Key topics covered include the following:  
+* Converting Caffe trained models to MXNet  
+* Calling Caffe operators in MXNet
+More concretly, please refer to [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter) and [How to | Convert from Caffe to MXNet](https://github.com/dmlc/mxnet/blob/master/docs/how_to/caffe.md).
+
+### [nicklhy/ResNet_caffe2mxnet](https://github.com/nicklhy/ResNet_caffe2mxnet)
+
+This is a tool to convert the deep-residual-networks from caffe model to mxnet model. The weights are directly copied from caffe network blobs.
 
 ## Caffe convertor  
 
