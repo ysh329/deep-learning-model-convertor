@@ -10,7 +10,7 @@ The convertor of deep learning models for different frameworks.
 |**pytorch**| None | None | None | None |   -   | None | None | None | None |
 |**torch**| None |[mocha](https://github.com/kuangliu/mocha) [trans-torch](https://github.com/Teaonly/trans-torch) [th2caffe](https://github.com/e-lab/th2caffe)| None | None |[convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)|   -   | None | None | None |
 |**keras**| None |[nn_tools](https://github.com/hahnyuan/nn_tools)| None | None | None | None |   -   | None |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow) [keras_to_tensorflow](https://github.com/alanswx/keras_to_tensorflow) |
-|**darknet**| None | None | None | None | None | None | None |   -   |[lego_yolo](https://github.com/dEcmir/lego_yolo) |
+|**darknet**| None | None | None | None | None | None | None |   -   | [darkflow](https://github.com/thtrieu/darkflow) [lego_yolo](https://github.com/dEcmir/lego_yolo) |
 |**tensorflow**| None |[nn_tools](https://github.com/hahnyuan/nn_tools)| None | None | None | None |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow)| None |   -   |
 
 ## MXNet convertor  
