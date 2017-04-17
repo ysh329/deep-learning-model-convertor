@@ -1,4 +1,7 @@
 # Deep Learning Model Convertors
+
+Note: This is not a converters, but rather a collection of different converters. Because github is an open source platform, I hope we can help each other here, gather everyone's strength.
+
 Because of these different frameworks, the awesome convertors of deep learning models for different frameworks occur. It should be noted that I did not test all the converters, so I could not guarantee that each was available. But I also hope this convertor collection may help you!
 
 The sheet below is a overview of all convertors in github (not only contain official provided and more is user-self accomplished). I just make a little work to collect these convertors. Also, hope everyone can support this project to help more people who're also crazy because of various frameworks.
@@ -171,3 +174,25 @@ Convert various model **to Darknet model**.
 ## TensorFlow convertor  
 
 Convert various model **to TensorFlow model**.  
+
+### [hahnyuan/nn_tools](https://github.com/hahnyuan/nn_tools)
+
+a neural network convertor for models among caffe tensorfloe keras
+
+### [goranrauker/convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow)
+
+Converts a variety of trained models to a frozen tensorflow protocol buffer file for use with the c++ tensorflow api. C++ code is included for using the frozen models.
+
+### [thtrieu/darkflow](https://github.com/thtrieu/darkflow)
+
+Translate darknet to tensorflow. Load trained weights, retrain/fine-tune using tensorflow, export constant graph def to mobile devices.
+
+### [dEcmir/lego_yolo](https://github.com/dEcmir/lego_yolo)
+
+Tensorflow code to to retrain yolo on a new dataset using weights from darknet
+
+This repository contains experiments of transfer learning using YOLO on a new synthetical LEGO data set ROUGH AND UNDOCUMENTED!
+
+### [alanswx/keras_to_tensorflow](https://github.com/alanswx/keras_to_tensorflow)
+
+Convert keras models to tensorflow frozen graph for use on cell phones, etc.
