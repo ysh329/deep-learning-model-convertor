@@ -1,5 +1,5 @@
 # Deep Learning Model Convertors
-Because of these different frameworks, the awesome convertors of deep learning models for different frameworks occur. It should be noted that I did not test all the converters, so I could not guarantee that each was available. But I also hope this convertor may help you!
+Because of these different frameworks, the awesome convertors of deep learning models for different frameworks occur. It should be noted that I did not test all the converters, so I could not guarantee that each was available. But I also hope this convertor collection may help you!
 
 The sheet below is a overview of all convertors in github (not only contain official provided and more is user-self accomplished). I just make a little work to collect these convertors. Also, hope everyone can support this project to help more people who're also crazy because of various framework.
 
@@ -88,21 +88,85 @@ Convert a Caffe Model to a Theano Model. This currently works on AlexNet, but sh
 
 Convert various model **to Neon model**.  
 
+### [NervanaSystems/caffe2neon](https://github.com/NervanaSystems/caffe2neon)
+
+Tools to convert Caffe models to neon's serialization format.
+
+This repo contains tools to convert Caffe models into a format compatible with the [neon deep learning library](https://github.com/NervanaSystems/caffe2neon). The main script, "decaffeinate.py", takes as input a caffe model definition file and the corresponding model weights file and returns a neon serialized model file. This output file can be used to instantiate the neon Model object, which will generate a model in neon that should replicate the behavior of the Caffe model.
+
 ## PyTorch convertor  
 
 Convert various model **to PyTorch model**.  
+
+### [clcarwin/convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)
+
+Convert torch t7 model to pytorch model and source.
 
 ## Torch convertor  
 
 Convert various model **to Torch model**.  
 
+### [kmatzen/googlenet-caffe2torch](https://github.com/kmatzen/googlenet-caffe2torch)
+
+Converts bvlc_googlenet.caffemodel to a Torch nn model.
+
+Want to use the pre-trained GoogLeNet from the BVLC Model Zoo in Torch? Do you not want to use Caffe as an additional dependency inside Torch? Use these two scripts to build the network definition in Torch and copy the learned weights from the Caffe model.
+
+### [kuangliu/mocha](https://github.com/kuangliu/mocha)
+
+Convert torch model to/from caffe model easily.
+
 ## Keras convertor  
 
 Convert various model **to Keras model**.  
 
+### [qxcv/caffe2keras](https://github.com/qxcv/caffe2keras)
+
+Note: This converter has been adapted from code in [Marc Bolaños fork of Caffe](https://github.com/MarcBS/keras). See acks for code provenance.
+
+This is intended to serve as a conversion module for Caffe models to Keras models.
+
+Please, be aware that this module is not regularly maintained. Thus, some layers or parameter definitions introduced in newer versions of either Keras or Caffe might not be compatible with the converter. Pull requests welcome!
+
+### [hahnyuan/nn_tools](https://github.com/hahnyuan/nn_tools)
+
+a neural network convertor for models among caffe tensorfloe keras
+
+### [masterhou/caffe2keras](https://github.com/masterhou/caffe2keras)
+
+Caffe to Keras converter, From https://github.com/MarcBS/keras.
+This is intended to serve as a conversion module for Caffe models to Keras Functional API models.
+
+### [MarcBS/keras](https://github.com/MarcBS/keras)
+
+Keras' fork with several new functionalities. Caffe2Keras converter, multimodal layers, etc. https://github.com/MarcBS/keras
+
+This fork of Keras offers the following contributions:
+
+Caffe to Keras conversion module
+Layer-specific learning rates
+New layers for multimodal data
+Contact email: marc.bolanos@ub.edu
+
+GitHub page: https://github.com/MarcBS
+
+MarcBS/keras is compatible with: Python 2.7 and Theano only.
+
+### [OdinLin/caffe2keras](https://github.com/OdinLin/caffe2keras)
+
+a simple tool to translate caffe model to keras model.
+
+### [jamescfli/Deep_Learning_Model_Converter](https://github.com/jamescfli/Deep_Learning_Model_Converter)
+
 ## Darknet convertor  
 
 Convert various model **to Darknet model**.  
+
+### []()
+
+### []()
+
+### []()
 
 ## TensorFlow convertor  
 
