@@ -22,7 +22,7 @@ The sheet below is a overview of all convertors in github (not only contain offi
 
 ## MXNet convertor  
 
-Convert various model **to MXNet model**.  
+**Convert to MXNet model**.  
 
 ### [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter)
 
@@ -37,7 +37,7 @@ This is a tool to convert the deep-residual-networks from caffe model to mxnet m
 
 ## Caffe convertor  
 
-Convert various model **to Caffe model**.  
+**Convert to Caffe model**.  
 
 ### [cypw/MXNet2Caffe](https://github.com/cypw/MXNet2Caffe)
 
@@ -61,7 +61,7 @@ a neural network convertor for models among caffe tensorfloe keras
 
 ## Theano/Lasagne convertor  
 
-Convert various model **to Theano/Lasagne model**.  
+**Convert to Theano/Lasagne model**.  
 
 ### [an-kumar/caffe-theano-conversion](https://github.com/an-kumar/caffe-theano-conversion)
 
@@ -89,7 +89,7 @@ Convert a Caffe Model to a Theano Model. This currently works on AlexNet, but sh
 
 ## Neon convertor  
 
-Convert various model **to Neon model**.  
+**Convert to Neon model**.  
 
 ### [NervanaSystems/caffe2neon](https://github.com/NervanaSystems/caffe2neon)
 
@@ -99,7 +99,7 @@ This repo contains tools to convert Caffe models into a format compatible with t
 
 ## PyTorch convertor  
 
-Convert various model **to PyTorch model**.  
+**Convert to PyTorch model**.  
 
 ### [clcarwin/convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)
 
@@ -107,7 +107,7 @@ Convert torch t7 model to pytorch model and source.
 
 ## Torch convertor  
 
-Convert various model **to Torch model**.  
+**Convert to Torch model**.  
 
 ### [kmatzen/googlenet-caffe2torch](https://github.com/kmatzen/googlenet-caffe2torch)
 
@@ -121,7 +121,7 @@ Convert torch model to/from caffe model easily.
 
 ## Keras convertor  
 
-Convert various model **to Keras model**.  
+**Convert to Keras model**.  
 
 ### [qxcv/caffe2keras](https://github.com/qxcv/caffe2keras)
 
@@ -163,7 +163,7 @@ a simple tool to translate caffe model to keras model.
 
 ## Darknet convertor  
 
-Convert various model **to Darknet model**.  
+**Convert to Darknet model**.  
 
 ### []()
 
@@ -173,7 +173,7 @@ Convert various model **to Darknet model**.
 
 ## TensorFlow convertor  
 
-Convert various model **to TensorFlow model**.  
+**Convert to TensorFlow model**.  
 
 ### [hahnyuan/nn_tools](https://github.com/hahnyuan/nn_tools)
 
