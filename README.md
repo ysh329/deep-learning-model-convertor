@@ -1,7 +1,7 @@
 # Deep Learning Model Convertors
 Because of the different framework， the awesome convertors of deep learning models for different frameworks occur. It should be noted that I did not test all the converters, so I could not guarantee that each was available. But I also hope this convertor may help you!
 
-The sheet below is a overview of all converter in github (not only contain officially provided and more is user-self accomplished). I just make a little work to collect these convertors. Also, hope everyone can support this project to help more people who're also crazy because of various framework.
+The sheet below is a overview of all convertors in github (not only contain official provided and more is user-self accomplished). I just make a little work to collect these convertors. Also, hope everyone can support this project to help more people who're also crazy because of various framework.
 
 | convertor | mxnet | caffe | theano/lasagne | neon | pytorch | torch | keras | darknet | tensorflow |
 | --------- |:-----:| :-----:|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|
@@ -35,6 +35,26 @@ This is a tool to convert the deep-residual-networks from caffe model to mxnet m
 ## Caffe convertor  
 
 Convert various model **to Caffe model**.  
+
+### [cypw/MXNet2Caffe](https://github.com/cypw/MXNet2Caffe)
+
+Convert MXNet model to Caffe model.
+
+### [kuangliu/mocha](https://github.com/kuangliu/mocha)
+
+Convert torch model to/from caffe model easily.
+
+### [Teaonly/trans-torch](https://github.com/Teaonly/trans-torch)
+
+Translating Torch model to other framework such as Caffe, MxNet ...
+
+### [e-lab/th2caffe](https://github.com/e-lab/th2caffe)
+
+A torch-nn to caffe converter for specific layers.
+
+### [hahnyuan/nn_tools](https://github.com/hahnyuan/nn_tools)
+
+a neural network convertor for models among caffe tensorfloe keras
 
 ## Theano/Lasagne convertor  
 
