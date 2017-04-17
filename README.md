@@ -9,6 +9,6 @@ The convertor of deep learning models for different frameworks.
 | neon      | are neat      |    $1 |zebra stripes |   -   |    $1 |zebra stripes | are neat      |    $1 | $1600 |
 | pytorch   | are neat      |    $1 |zebra stripes | are neat      |   -   |zebra stripes | are neat      |    $1 | $1600 |
 | torch     | are neat      |[mocha](https://github.com/kuangliu/mocha) [trans-torch](https://github.com/Teaonly/trans-torch) [th2caffe](https://github.com/e-lab/th2caffe)|zebra stripes | are neat      |[convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)|   -   | are neat      |    $1 | $1600 |
-| keras     | are neat      |[nn_tools](https://github.com/hahnyuan/nn_tools)|zebra stripes | are neat      |    $1 |zebra stripes |   -   |    $1 |[nn_tools](https://github.com/hahnyuan/nn_tools)|
+| keras     | are neat      |[nn_tools](https://github.com/hahnyuan/nn_tools)|zebra stripes | are neat      |    $1 |zebra stripes |   -   |    $1 |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow)|
 | darknet   | are neat      |    $1 |zebra stripes | are neat      |    $1 |zebra stripes | are neat      |   -   |[lego_yolo](https://github.com/dEcmir/lego_yolo) |
-| tensorflow| are neat      |[nn_tools](https://github.com/hahnyuan/nn_tools)|zebra stripes | are neat      |    $1 |zebra stripes |[nn_tools](https://github.com/hahnyuan/nn_tools)|   4343   |   -   |
+| tensorflow| are neat      |[nn_tools](https://github.com/hahnyuan/nn_tools)|zebra stripes | are neat      |    $1 |zebra stripes |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow)|   4343   |   -   |
