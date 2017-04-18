@@ -2,7 +2,7 @@ The project will be updated continuously ......
 
 # [Deep Learning Model Convertors](https://github.com/ysh329/deep-learning-model-convertor)
 
-Note: **This is not one convertor for all frameworks, but rather a collection of different converters.** Because github is an open source platform, I hope we can help each other here, gather everyone's strength.
+Note: **This is not one convertor for all frameworks, but a collection of different converters.** Because github is an open source platform, I hope we can help each other here, gather everyone's strength.
 
 Because of these different frameworks, the awesome convertors of deep learning models for different frameworks occur. It should be noted that I did not test all the converters, so I could not guarantee that each was available. But I also hope this convertor collection may help you!
 
