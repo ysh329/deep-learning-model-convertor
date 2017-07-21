@@ -52,6 +52,10 @@ Convert MXNet model to Caffe model.
 
 Convert torch model to/from caffe model easily.
 
+###  [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) 
+
+Convert between pytorch, caffe and darknet models. Caffe darknet models can be load directly by pytorch.
+
 ### [Teaonly/trans-torch](https://github.com/Teaonly/trans-torch)
 
 Translating Torch model to other framework such as Caffe, MxNet ...
@@ -114,6 +118,10 @@ Convert torch t7 model to pytorch model and source.
 
 `chainer2pytorch` implements conversions from Chainer modules to PyTorch modules, setting parameters of each modules such that one can port over models on a module basis.
 
+###  [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) 
+
+Convert between pytorch, caffe and darknet models. Caffe darknet models can be load directly by pytorch.
+
 ## Torch convertor  
 
 **Convert to Torch model**.  
@@ -174,7 +182,9 @@ a simple tool to translate caffe model to keras model.
 
 **Convert to Darknet model**.  
 
-### []()
+### [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) 
+
+Convert between pytorch, caffe and darknet models. Caffe darknet models can be load directly by pytorch.
 
 ### []()
 
