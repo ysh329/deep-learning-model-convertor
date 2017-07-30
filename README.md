@@ -13,11 +13,11 @@ The sheet below is a overview of all convertors in github (not only contain offi
 | convertor | mxnet | caffe :sparkles: | theano/lasagne | neon | pytorch | torch :sparkles: | keras :sparkles: | darknet | tensorflow :sparkles: | chainer |
 | --------- |:-----:| :-----:|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |**mxnet**  |   -   | [MXNet2Caffe](https://github.com/cypw/MXNet2Caffe) [Mxnet2Caffe](https://github.com/wranglerwong/Mxnet2Caffe) | None | None | None | None | None | None | None | None |
-|**caffe** :sparkles: | [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter) [ResNet_caffe2mxnet](https://github.com/nicklhy/ResNet_caffe2mxnet)|  -  |[caffe_theano_conversion](https://github.com/an-kumar/caffe-theano-conversion) [caffe-model-convert](https://github.com/kencoken/caffe-model-convert) [caffe-to-theano](https://github.com/piergiaj/caffe-to-theano) |[caffe2neon](https://github.com/NervanaSystems/caffe2neon)| [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) |[googlenet-caffe2torch](https://github.com/kmatzen/googlenet-caffe2torch) [mocha](https://github.com/kuangliu/mocha)|[caffe2keras](https://github.com/qxcv/caffe2keras) [nn_tools](https://github.com/hahnyuan/nn_tools) [caffe2keras](https://github.com/masterhou/caffe2keras) [keras](https://github.com/MarcBS/keras) [caffe2keras](https://github.com/OdinLin/caffe2keras) [Deep_Learning_Model_Converter](https://github.com/jamescfli/Deep_Learning_Model_Converter)| [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) |[nn_tools](https://github.com/hahnyuan/nn_tools)| None |
+|**caffe** :sparkles: | [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter) [ResNet_caffe2mxnet](https://github.com/nicklhy/ResNet_caffe2mxnet)|  -  |[caffe_theano_conversion](https://github.com/an-kumar/caffe-theano-conversion) [caffe-model-convert](https://github.com/kencoken/caffe-model-convert) [caffe-to-theano](https://github.com/piergiaj/caffe-to-theano) |[caffe2neon](https://github.com/NervanaSystems/caffe2neon)| [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) |[googlenet-caffe2torch](https://github.com/kmatzen/googlenet-caffe2torch) [mocha](https://github.com/kuangliu/mocha)|[caffe2keras](https://github.com/qxcv/caffe2keras) [nn_tools](https://github.com/hahnyuan/nn_tools) [caffe2keras](https://github.com/masterhou/caffe2keras) [keras](https://github.com/MarcBS/keras) [caffe2keras](https://github.com/OdinLin/caffe2keras) [Deep_Learning_Model_Converter](https://github.com/jamescfli/Deep_Learning_Model_Converter)| [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) |[nn_tools](https://github.com/hahnyuan/nn_tools) [caffe-tensorflow](https://github.com/ethereon/caffe-tensorflow) | None |
 |**theano/lasagne**| None | None |   -   | None | None | None | None | None | None | None |
 |**neon**| None | None | None |   -   | None | None | None | None | None | None |
 |**pytorch**| None | [pytorch-resnet](https://github.com/ruotianluo/pytorch-resnet) [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None |   -   | None | None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None |
-|**torch** :sparkles: | None |[mocha](https://github.com/kuangliu/mocha) [trans-torch](https://github.com/Teaonly/trans-torch) [th2caffe](https://github.com/e-lab/th2caffe)| None | None |[convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)|   -   | None | None | None | None |
+|**torch** :sparkles: | None | [fb-caffe-exts/torch2caffe](https://github.com/facebook/fb-caffe-exts#torch2caffe) [mocha](https://github.com/kuangliu/mocha) [trans-torch](https://github.com/Teaonly/trans-torch) [th2caffe](https://github.com/e-lab/th2caffe)| None | None |[convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)|   -   | None | None | None | None |
 |**keras** :sparkles: | None |[nn_tools](https://github.com/hahnyuan/nn_tools)| None | None | None | None |   -   | None |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow) [keras_to_tensorflow](https://github.com/alanswx/keras_to_tensorflow) [keras_to_tensorflow](https://github.com/amir-abdi/keras_to_tensorflow) | None |
 |**darknet**| None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None |   -   | [darkflow](https://github.com/thtrieu/darkflow) [lego_yolo](https://github.com/dEcmir/lego_yolo) | None |
 |**tensorflow** :sparkles: | None |[nn_tools](https://github.com/hahnyuan/nn_tools)| None | [pytorch-tf](https://github.com/leonidk/pytorch-tf) | None | None |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow)| None |   -   | None |
@@ -55,6 +55,10 @@ Convert MXNet model to Caffe model.
 ### [kuangliu/mocha](https://github.com/kuangliu/mocha)
 
 Convert torch model to/from caffe model easily.
+
+### [facebook/fb-caffe-exts/torch2caffe](https://github.com/facebook/fb-caffe-exts#torch2caffe)  
+
+Some handy utility libraries and tools for the Caffe deep learning framework, which has ** A library for converting pre-trained Torch models to the equivalent Caffe models.**
 
 ###  [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) 
 
@@ -205,6 +209,10 @@ Convert between pytorch, caffe and darknet models. Caffe darknet models can be l
 ### [hahnyuan/nn_tools](https://github.com/hahnyuan/nn_tools)
 
 a neural network convertor for models among caffe tensorfloe keras
+
+### [ethereon/caffe-tensorflow: Caffe models in TensorFlow](https://github.com/ethereon/caffe-tensorflow)
+
+Convert Caffe models to TensorFlow.
 
 ### [goranrauker/convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow)
 
