@@ -22,7 +22,7 @@ The sheet below is a overview of all convertors in github (not only contain offi
 |**darknet**| None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None |   -   | [darkflow](https://github.com/thtrieu/darkflow) [lego_yolo](https://github.com/dEcmir/lego_yolo) | None | None |
 |**tensorflow** :sparkles: | None |[nn_tools](https://github.com/hahnyuan/nn_tools)| None | [pytorch-tf](https://github.com/leonidk/pytorch-tf) | None | None |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow)| None |   -   | None | None |
 |**chainer**| None | None | None | None |[chainer2pytorch](https://github.com/vzhong/chainer2pytorch)| None | None | None | None | - | None |
-|**coreML**| [mxnet-to-coreml](https://github.com/apache/incubator-mxnet/tree/master/tools/coreml) | None | None | None | None | None | None | None | None | None | - |
+|**coreML**| [mxnet-to-coreml](https://github.com/apache/incubator-mxnet/tree/master/tools/coreml) | None | None | None | None | [torch2coreml](https://github.com/prisma-ai/torch2coreml) | None | None | None | None | - |
 
 # Brief Intro. of Convertors
 
@@ -252,3 +252,6 @@ Converting a pretrained pytorch model to tensorflow
 ### [mxnet/tools/mxnet-to-coreml](https://github.com/apache/incubator-mxnet/tree/master/tools/coreml)
 Convert MXNet models into Apple CoreML format.  
 This tool helps convert MXNet models into Apple CoreML format which can then be run on Apple devices.
+
+### [prisma-ai/torch2coreml: Torch7 -> CoreML](https://github.com/prisma-ai/torch2coreml)  
+This tool helps convert Torch7 models into Apple CoreML format which can then be run on Apple devices.
