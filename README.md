@@ -10,7 +10,7 @@ Because of these different frameworks, the awesome convertors of deep learning m
 
 The sheet below is a overview of all convertors in github (not only contain official provided and more are user-self implementations). I just make a little work to collect these convertors. Also, hope everyone can support this project to help more people who're also crazy because of various frameworks.
 
-| convertor | mxnet | caffe :sparkles: | theano/lasagne | neon | pytorch | torch :sparkles: | keras :sparkles: | darknet | tensorflow :sparkles: | chainer | coreML |
+| convertor | mxnet | caffe :sparkles: | theano/lasagne | neon | pytorch | torch :sparkles: | keras :sparkles: | darknet | tensorflow :sparkles: | chainer | coreML/iOS |
 | --------- |:-----:| :-----:|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |**mxnet**  |   -   | [MXNet2Caffe](https://github.com/cypw/MXNet2Caffe) [Mxnet2Caffe](https://github.com/wranglerwong/Mxnet2Caffe) | None | None | None | None | None | None | None | None | None |
 |**caffe** :sparkles: | [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter) [ResNet_caffe2mxnet](https://github.com/nicklhy/ResNet_caffe2mxnet)|  -  |[caffe_theano_conversion](https://github.com/an-kumar/caffe-theano-conversion) [caffe-model-convert](https://github.com/kencoken/caffe-model-convert) [caffe-to-theano](https://github.com/piergiaj/caffe-to-theano) |[caffe2neon](https://github.com/NervanaSystems/caffe2neon)| [pytorch2caffe](https://github.com/longcw/pytorch2caffe) [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) |[googlenet-caffe2torch](https://github.com/kmatzen/googlenet-caffe2torch) [mocha](https://github.com/kuangliu/mocha)|[caffe2keras](https://github.com/qxcv/caffe2keras) [nn_tools](https://github.com/hahnyuan/nn_tools) [caffe2keras](https://github.com/masterhou/caffe2keras) [keras](https://github.com/MarcBS/keras) [caffe2keras](https://github.com/OdinLin/caffe2keras) [Deep_Learning_Model_Converter](https://github.com/jamescfli/Deep_Learning_Model_Converter)| [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) |[nn_tools](https://github.com/hahnyuan/nn_tools) [caffe-tensorflow](https://github.com/ethereon/caffe-tensorflow) | None | None |
@@ -20,15 +20,24 @@ The sheet below is a overview of all convertors in github (not only contain offi
 |**torch** :sparkles: | None | [fb-caffe-exts/torch2caffe](https://github.com/facebook/fb-caffe-exts#torch2caffe) [mocha](https://github.com/kuangliu/mocha) [trans-torch](https://github.com/Teaonly/trans-torch) [th2caffe](https://github.com/e-lab/th2caffe)| None | None |[convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)|   -   | None | None | None | None | None |
 |**keras** :sparkles: | None |[nn_tools](https://github.com/hahnyuan/nn_tools)| None | None | None | None |   -   | None |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow) [keras_to_tensorflow](https://github.com/alanswx/keras_to_tensorflow) [keras_to_tensorflow](https://github.com/amir-abdi/keras_to_tensorflow) | None | None |
 |**darknet**| None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None |   -   | [darkflow](https://github.com/thtrieu/darkflow) [lego_yolo](https://github.com/dEcmir/lego_yolo) | None | None |
-|**tensorflow** :sparkles: | None |[nn_tools](https://github.com/hahnyuan/nn_tools)| None | None | [pytorch-tf](https://github.com/leonidk/pytorch-tf) | None |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow)| None |   -   | None | None |
+|**tensorflow** :sparkles: | None |[nn_tools](https://github.com/hahnyuan/nn_tools)| None | None | [pytorch-tf](https://github.com/leonidk/pytorch-tf) | None | [model-converters](https://github.com/triagemd/model-converters) [nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow)| None |   -   | None | None |
 |**chainer**| None | None | None | None |[chainer2pytorch](https://github.com/vzhong/chainer2pytorch)| None | None | None | None | - | None |
-|**coreML**| [mxnet-to-coreml](https://github.com/apache/incubator-mxnet/tree/master/tools/coreml) | None | None | None | None | [torch2coreml](https://github.com/prisma-ai/torch2coreml) | None | None | None | None | - |
+|**coreML/iOS**| [mxnet-to-coreml](https://github.com/apache/incubator-mxnet/tree/master/tools/coreml) | [CoreMLZoo](https://github.com/mdering/CoreMLZoo) | None | None | None | [torch2coreml](https://github.com/prisma-ai/torch2coreml) [torch2ios](https://github.com/woffle/torch2ios) | [model-converters](https://github.com/triagemd/model-converters) [keras_models](https://github.com/Bulochkin/keras_models) | None | None | None | - |
 
 # Brief Intro. of Convertors
 
 ## MXNet convertor  
 
 **Convert to MXNet model**.  
+
+### [mdering/CoreMLZoo: A few models converted from caffe to CoreMLs format](https://github.com/mdering/CoreMLZoo)  
+A few deep learning models converted from various formats to CoreMLs format.  
+Models currently available:
+
+- SqueezeNet  
+- VGG19  
+Please feel free to create a pull request with additional models.
+
 
 ### [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter)
 
@@ -211,6 +220,10 @@ Convert between pytorch, caffe and darknet models. Caffe darknet models can be l
 
 **Convert to TensorFlow model**.  
 
+### [triagemd/model-converters: Tools for converting Keras models for use with other ML frameworks](https://github.com/triagemd/model-converters)
+
+Tools for converting Keras models for use with other ML frameworks (coreML, TensorFlow).
+
 ### [hahnyuan/nn_tools](https://github.com/hahnyuan/nn_tools)
 
 a neural network convertor for models among caffe tensorfloe keras
@@ -259,3 +272,20 @@ This tool helps convert MXNet models into Apple CoreML format which can then be 
 
 ### [prisma-ai/torch2coreml: Torch7 -> CoreML](https://github.com/prisma-ai/torch2coreml)  
 This tool helps convert Torch7 models into Apple CoreML format which can then be run on Apple devices.
+
+### [woffle/torch2ios: Torch7 Library - Convert NN Models To iOS Format](https://github.com/woffle/torch2ios)
+
+Torch7 Library - Convert NN Models To iOS Format.
+
+Small lib to serialise Torch7 Networks for iOS. Supported Layers include Fully Connected, Pooling and Convolution Layers at present. The library stores the weights & biases (if any) for each layer necesarry for inference on iOS devices.
+
+### [Bulochkin/keras_models: Keras models with python-based convertor to provide embedding in IOS platform](https://github.com/Bulochkin/keras_models)
+
+Keras models with python-based convertor to provide embedding in IOS platform.
+
+### [triagemd/model-converters: Tools for converting Keras models for use with other ML frameworks](https://github.com/triagemd/model-converters)
+
+Tools for converting Keras models for use with other ML frameworks (coreML, TensorFlow).
+
+
+
