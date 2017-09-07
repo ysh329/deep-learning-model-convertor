@@ -266,6 +266,22 @@ Converting a pretrained pytorch model to tensorflow
 
 **Convert to coreML model**.
 
+### [Apple: Converting Trained Models to Core ML](https://developer.apple.com/documentation/coreml)
+
+Convert trained models created with third-party machine learning tools to the Core ML model format.
+
+If your model is created and trained using a supported third-party machine learning tool, you can use Core ML Tools to convert it to the Core ML model format. Table 1 lists the supported models and third-party tools.
+
+|Model type|Supported models|Supported tools|
+|:--:|:--:|:--:|
+|Neural networks|Feedforward, convolutional, recurrent|Caffe v1 <br/>Keras 1.2.2+|
+|Tree ensembles|Random forests, boosted trees, decision trees|scikit-learn 0.18 <br/>XGBoost 0.6|
+|Support vector machines|Scalar regression, multiclass classification|scikit-learn 0.18<br/>LIBSVM 3.22|
+|Generalized linear models|Linear regression, logistic regression|scikit-learn 0.18|
+|Feature engineering|Sparse vectorization, dense vectorization, categorical processing|scikit-learn 0.18|
+|Pipeline models|Sequentially chained models|scikit-learn 0.18|
+
+
 ### [mxnet/tools/mxnet-to-coreml](https://github.com/apache/incubator-mxnet/tree/master/tools/coreml)
 Convert MXNet models into Apple CoreML format.  
 This tool helps convert MXNet models into Apple CoreML format which can then be run on Apple devices.
@@ -286,6 +302,7 @@ Keras models with python-based convertor to provide embedding in IOS platform.
 ### [triagemd/model-converters: Tools for converting Keras models for use with other ML frameworks](https://github.com/triagemd/model-converters)
 
 Tools for converting Keras models for use with other ML frameworks (coreML, TensorFlow).
+
 
 
 
