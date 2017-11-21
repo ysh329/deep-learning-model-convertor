@@ -243,6 +243,10 @@ a simple tool to translate caffe model to keras model.
 
 Convert between Keras and PyTorch models.
 
+###  [pytorch2keras](https://github.com/nerox8664/pytorch2keras)
+
+Convert pytorch models to Keras.
+
 ## Darknet convertor  
 
 **Convert to Darknet model**.  
@@ -300,6 +304,10 @@ General code to convert a trained keras model into an inference tensorflow model
 ### [leonidk/pytorch-tf](https://github.com/leonidk/pytorch-tf)
 
 Converting a pretrained pytorch model to tensorflow
+
+###  [pytorch2keras](https://github.com/nerox8664/pytorch2keras)
+
+Convert pytorch models to Tensorflow (via Keras)
 
 ## Chainer convertor  
 
