@@ -13,12 +13,12 @@ The sheet below is a overview of all convertors in github (not only contain offi
 | convertor | [mxnet](http://data.dmlc.ml/models/) | [caffe](https://github.com/BVLC/caffe/wiki/Model-Zoo) :sparkles:  | [caffe2](https://github.com/caffe2/caffe2/wiki/Model-Zoo) | [CNTK](https://www.microsoft.com/en-us/cognitive-toolkit/features/model-gallery/) | [theano](https://github.com/Theano/Theano/wiki/Related-projects)/[lasagne](https://github.com/Lasagne/Recipes) | [neon](https://github.com/NervanaSystems/ModelZoo) | [pytorch](https://github.com/pytorch/vision):sparkles: | [torch](https://github.com/torch/torch7/wiki/ModelZoo) | [keras](https://github.com/fchollet/deep-learning-models) :sparkles: | [darknet](https://pjreddie.com/darknet/imagenet/) | [tensorflow](https://github.com/tensorflow/models) :sparkles: | [chainer](http://docs.chainer.org/en/stable/reference/caffe.html) | [coreML/iOS](https://developer.apple.com/documentation/coreml) :sparkles:|
 | --------- |:-----:|:-----:|:-----:|:-----:|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 |**[mxnet](http://data.dmlc.ml/models/)**  |   -   | [MXNet2Caffe](https://github.com/cypw/MXNet2Caffe) [Mxnet2Caffe](https://github.com/wranglerwong/Mxnet2Caffe) | None | [MMdnn](https://github.com/Microsoft/MMdnn) | None | None | [MMdnn](https://github.com/Microsoft/MMdnn) | None | [MMdnn](https://github.com/Microsoft/MMdnn) | None | [MMdnn](https://github.com/Microsoft/MMdnn) | None | [mxnet-to-coreml](https://github.com/apache/incubator-mxnet/tree/master/tools/coreml) |
-|**[caffe](https://github.com/BVLC/caffe/wiki/Model-Zoo)** :sparkles: | [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter) [ResNet_caffe2mxnet](https://github.com/nicklhy/ResNet_caffe2mxnet) [MMdnn](https://github.com/Microsoft/MMdnn) |  - | None | [crosstalkcaffe/CaffeConverter](https://github.com/Microsoft/CNTK/tree/master/bindings/python/cntk/contrib/crosstalkcaffe) [MMdnn](https://github.com/Microsoft/MMdnn) | [caffe_theano_conversion](https://github.com/an-kumar/caffe-theano-conversion) [caffe-model-convert](https://github.com/kencoken/caffe-model-convert) [caffe-to-theano](https://github.com/piergiaj/caffe-to-theano) |[caffe2neon](https://github.com/NervanaSystems/caffe2neon) | [pytorch2caffe](https://github.com/longcw/pytorch2caffe) [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) [MMdnn](https://github.com/Microsoft/MMdnn) | [googlenet-caffe2torch](https://github.com/kmatzen/googlenet-caffe2torch) [mocha](https://github.com/kuangliu/mocha)|[caffe2keras](https://github.com/qxcv/caffe2keras) [nn_tools](https://github.com/hahnyuan/nn_tools) [caffe2keras](https://github.com/masterhou/caffe2keras) [keras](https://github.com/MarcBS/keras) [caffe2keras](https://github.com/OdinLin/caffe2keras) [Deep_Learning_Model_Converter](https://github.com/jamescfli/Deep_Learning_Model_Converter) [MMdnn](https://github.com/Microsoft/MMdnn) | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | [nn_tools](https://github.com/hahnyuan/nn_tools) [caffe-tensorflow](https://github.com/ethereon/caffe-tensorflow) [MMdnn](https://github.com/Microsoft/MMdnn) | None | [CoreMLZoo](https://github.com/mdering/CoreMLZoo) [apple/coremltools](https://apple.github.io/coremltools/) |
+|**[caffe](https://github.com/BVLC/caffe/wiki/Model-Zoo)** :sparkles: | [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter) [ResNet_caffe2mxnet](https://github.com/nicklhy/ResNet_caffe2mxnet) [MMdnn](https://github.com/Microsoft/MMdnn) |  - | None | [crosstalkcaffe/CaffeConverter](https://github.com/Microsoft/CNTK/tree/master/bindings/python/cntk/contrib/crosstalkcaffe) [MMdnn](https://github.com/Microsoft/MMdnn) | [caffe_theano_conversion](https://github.com/an-kumar/caffe-theano-conversion) [caffe-model-convert](https://github.com/kencoken/caffe-model-convert) [caffe-to-theano](https://github.com/piergiaj/caffe-to-theano) |[caffe2neon](https://github.com/NervanaSystems/caffe2neon) | [pytorch2caffe](https://github.com/longcw/pytorch2caffe) [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) [MMdnn](https://github.com/Microsoft/MMdnn) [pytorch-resnet](https://github.com/ruotianluo/pytorch-resnet) | [googlenet-caffe2torch](https://github.com/kmatzen/googlenet-caffe2torch) [mocha](https://github.com/kuangliu/mocha)|[caffe2keras](https://github.com/qxcv/caffe2keras) [nn_tools](https://github.com/hahnyuan/nn_tools) [caffe2keras](https://github.com/masterhou/caffe2keras) [keras](https://github.com/MarcBS/keras) [caffe2keras](https://github.com/OdinLin/caffe2keras) [Deep_Learning_Model_Converter](https://github.com/jamescfli/Deep_Learning_Model_Converter) [MMdnn](https://github.com/Microsoft/MMdnn) | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | [nn_tools](https://github.com/hahnyuan/nn_tools) [caffe-tensorflow](https://github.com/ethereon/caffe-tensorflow) [MMdnn](https://github.com/Microsoft/MMdnn) | None | [CoreMLZoo](https://github.com/mdering/CoreMLZoo) [apple/coremltools](https://apple.github.io/coremltools/) |
 |**[caffe2](https://github.com/caffe2/caffe2/wiki/Model-Zoo)**| None | None | - | ONNX | None | None | ONNX | None | None | None | None | None | None |
 |**[CNTK](https://www.microsoft.com/en-us/cognitive-toolkit/features/model-gallery/)**| [MMdnn](https://github.com/Microsoft/MMdnn) | None | ONNX | - | None | None | ONNX [MMdnn](https://github.com/Microsoft/MMdnn) | None | [MMdnn](https://github.com/Microsoft/MMdnn) | None |  [crosstalk](https://github.com/Microsoft/CNTK/tree/master/bindings/python/cntk/contrib/crosstalk) [MMdnn](https://github.com/Microsoft/MMdnn) | None | None |
 |**[theano](https://github.com/Theano/Theano/wiki/Related-projects)/[lasagne](https://github.com/Lasagne/Recipes)**| None | None | None | None |   -   | None | None | None | None | None | None | None | None |
 |**[neon](https://github.com/NervanaSystems/ModelZoo)**| None | None | None | None | None |   -   | None | None | None | None | None | None | None |
-|**[pytorch](https://github.com/pytorch/vision)** :sparkles:| None | [pytorch-resnet](https://github.com/ruotianluo/pytorch-resnet) [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | [onnx-caffe2](https://github.com/onnx/onnx-caffe2) | ONNX | None | None |   -   | None | [pytorch2keras](https://github.com/nerox8664/pytorch2keras) [nn-transfer](https://github.com/gzuidhof/nn-transfer) | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | [pytorch2keras](https://github.com/nerox8664/pytorch2keras) (over Keras) | None | None |
+|**[pytorch](https://github.com/pytorch/vision)** :sparkles:| None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | [onnx-caffe2](https://github.com/onnx/onnx-caffe2) | ONNX | None | None |   -   | None | [pytorch2keras](https://github.com/nerox8664/pytorch2keras) [nn-transfer](https://github.com/gzuidhof/nn-transfer) | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | [pytorch2keras](https://github.com/nerox8664/pytorch2keras) (over Keras) | None | None |
 |**[torch](https://github.com/torch/torch7/wiki/ModelZoo)** | None | [fb-caffe-exts/torch2caffe](https://github.com/facebook/fb-caffe-exts#torch2caffe) [mocha](https://github.com/kuangliu/mocha) [trans-torch](https://github.com/Teaonly/trans-torch) [th2caffe](https://github.com/e-lab/th2caffe) | None | None | None | None |[convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)|   -   | None | None | None | None | [torch2coreml](https://github.com/prisma-ai/torch2coreml) [torch2ios](https://github.com/woffle/torch2ios) |
 |**[keras](https://github.com/fchollet/deep-learning-models)** :sparkles: | [MMdnn](https://github.com/Microsoft/MMdnn) | [nn_tools](https://github.com/hahnyuan/nn_tools) | None | [MMdnn](https://github.com/Microsoft/MMdnn) | None | None | [nn-transfer](https://github.com/gzuidhof/nn-transfer) [MMdnn](https://github.com/Microsoft/MMdnn) | None |   -   | None |[nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow) [keras_to_tensorflow](https://github.com/alanswx/keras_to_tensorflow) [keras_to_tensorflow](https://github.com/amir-abdi/keras_to_tensorflow) [MMdnn](https://github.com/Microsoft/MMdnn) | None | [apple/coremltools](https://apple.github.io/coremltools/) :sparkles: [model-converters](https://github.com/triagemd/model-converters) [keras_models](https://github.com/Bulochkin/keras_models) |
 |**[darknet](https://pjreddie.com/darknet/imagenet/)**| None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None | None | None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None |   -   | [darkflow](https://github.com/thtrieu/darkflow) [lego_yolo](https://github.com/dEcmir/lego_yolo) | None | None |
@@ -41,21 +41,21 @@ More info [here](https://research.fb.com/facebook-and-microsoft-introduce-new-op
 
 ## MXNet convertor
 
-**Convert to MXNet model**.  
+**Convert to MXNet model**.
 
-### [mdering/CoreMLZoo: A few models converted from caffe to CoreMLs format](https://github.com/mdering/CoreMLZoo)  
-A few deep learning models converted from various formats to CoreMLs format.  
+### [mdering/CoreMLZoo: A few models converted from caffe to CoreMLs format](https://github.com/mdering/CoreMLZoo)
+A few deep learning models converted from various formats to CoreMLs format.
 Models currently available:
 
-- SqueezeNet  
-- VGG19  
+- SqueezeNet
+- VGG19
 Please feel free to create a pull request with additional models.
 
 
 ### [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter)
 
-Key topics covered include the following:  
-* Converting Caffe trained models to MXNet  
+Key topics covered include the following:
+* Converting Caffe trained models to MXNet
 * Calling Caffe operators in MXNet
 More concretly, please refer to [mxnet/tools/caffe_converter](https://github.com/dmlc/mxnet/tree/master/tools/caffe_converter) and [How to | Convert from Caffe to MXNet](https://github.com/dmlc/mxnet/blob/master/docs/how_to/caffe.md).
 
@@ -63,9 +63,9 @@ More concretly, please refer to [mxnet/tools/caffe_converter](https://github.com
 
 This is a tool to convert the deep-residual-networks from caffe model to mxnet model. The weights are directly copied from caffe network blobs.
 
-## Caffe convertor  
+## Caffe convertor
 
-**Convert to Caffe model**. 
+**Convert to Caffe model**.
 
 ### [pytorch2caffe](https://github.com/longcw/pytorch2caffe)
 
@@ -83,11 +83,11 @@ Convert MXNet model to Caffe model.
 
 Convert torch model to/from caffe model easily.
 
-### [facebook/fb-caffe-exts/torch2caffe](https://github.com/facebook/fb-caffe-exts#torch2caffe)  
+### [facebook/fb-caffe-exts/torch2caffe](https://github.com/facebook/fb-caffe-exts#torch2caffe)
 
 Some handy utility libraries and tools for the Caffe deep learning framework, which has ** A library for converting pre-trained Torch models to the equivalent Caffe models.**
 
-###  [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) 
+###  [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert)
 
 Convert between pytorch, caffe and darknet models. Caffe darknet models can be load directly by pytorch.
 
@@ -103,9 +103,9 @@ A torch-nn to caffe converter for specific layers.
 
 a neural network convertor for models among caffe tensorflow keras
 
-## Caffe2 convertor  
+## Caffe2 convertor
 
-**Convert to Caffe2 model**. 
+**Convert to Caffe2 model**.
 
 ### [onnx-caffe2](https://github.com/onnx/onnx-caffe2)
 
@@ -113,7 +113,7 @@ Convert PyTorch to Caffe2 (making it especially easy to deploy on mobile devices
 
 ## CNTK convertor
 
-**Convert to CNTK model**. 
+**Convert to CNTK model**.
 
 ### [crosstalkcaffe/CaffeConverter](https://github.com/Microsoft/CNTK/tree/master/bindings/python/cntk/contrib/crosstalkcaffe)
 
@@ -125,9 +125,9 @@ Convert trained models: giving a model script and its weights file, export to CN
 
 crosstalk is from CNTK contrib.
 
-## Theano/Lasagne convertor  
+## Theano/Lasagne convertor
 
-**Convert to Theano/Lasagne model**.  
+**Convert to Theano/Lasagne model**.
 
 ### [an-kumar/caffe-theano-conversion](https://github.com/an-kumar/caffe-theano-conversion)
 
@@ -155,7 +155,7 @@ Convert a Caffe Model to a Theano Model. This currently works on AlexNet, but sh
 
 ## Neon convertor  
 
-**Convert to Neon model**.  
+**Convert to Neon model**.
 
 ### [NervanaSystems/caffe2neon](https://github.com/NervanaSystems/caffe2neon)
 
@@ -165,7 +165,7 @@ This repo contains tools to convert Caffe models into a format compatible with t
 
 ## PyTorch convertor  
 
-**Convert to PyTorch model**.  
+**Convert to PyTorch model**.
 
 ### [ruotianluo/pytorch-resnet](https://github.com/ruotianluo/pytorch-resnet)
 
@@ -175,11 +175,11 @@ Convert resnet trained in caffe to pytorch model.
 
 Convert torch t7 model to pytorch model and source.
 
-### [vzhong/chainer2pytorch](https://github.com/vzhong/chainer2pytorch)  
+### [vzhong/chainer2pytorch](https://github.com/vzhong/chainer2pytorch)
 
 `chainer2pytorch` implements conversions from Chainer modules to PyTorch modules, setting parameters of each modules such that one can port over models on a module basis.
 
-###  [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) 
+###  [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert)
 
 Convert between pytorch, caffe and darknet models. Caffe darknet models can be load directly by pytorch.
 
@@ -189,7 +189,7 @@ Convert between Keras and PyTorch models.
 
 ## Torch convertor  
 
-**Convert to Torch model**.  
+**Convert to Torch model**.
 
 ### [kmatzen/googlenet-caffe2torch](https://github.com/kmatzen/googlenet-caffe2torch)
 
@@ -203,7 +203,7 @@ Convert torch model to/from caffe model easily.
 
 ## Keras convertor  
 
-**Convert to Keras model**.  
+**Convert to Keras model**.
 
 ### [qxcv/caffe2keras](https://github.com/qxcv/caffe2keras)
 
@@ -253,9 +253,9 @@ Convert pytorch models to Keras.
 
 ## Darknet convertor  
 
-**Convert to Darknet model**.  
+**Convert to Darknet model**.
 
-### [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) 
+### [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert)
 
 Convert between pytorch, caffe and darknet models. Caffe darknet models can be load directly by pytorch.
 
@@ -265,7 +265,7 @@ Convert between pytorch, caffe and darknet models. Caffe darknet models can be l
 
 ## TensorFlow convertor  
 
-**Convert to TensorFlow model**.  
+**Convert to TensorFlow model**.
 
 ###  [crosstalk](https://github.com/Microsoft/CNTK/tree/master/bindings/python/cntk/contrib/crosstalk)
 
@@ -301,7 +301,7 @@ This repository contains experiments of transfer learning using YOLO on a new sy
 
 Convert keras models to tensorflow frozen graph for use on cell phones, etc.
 
-### [amir-abdi/keras_to_tensorflow](https://github.com/amir-abdi/keras_to_tensorflow) 
+### [amir-abdi/keras_to_tensorflow](https://github.com/amir-abdi/keras_to_tensorflow)
 
 General code to convert a trained keras model into an inference tensorflow model.
 
@@ -315,7 +315,7 @@ Convert pytorch models to Tensorflow (via Keras)
 
 ## Chainer convertor  
 
-**Convert to Chainer model**. 
+**Convert to Chainer model**.
 
 ## coreML convertor  
 
@@ -338,10 +338,10 @@ If your model is created and trained using a supported third-party machine learn
 
 
 ### [mxnet/tools/mxnet-to-coreml](https://github.com/apache/incubator-mxnet/tree/master/tools/coreml)
-Convert MXNet models into Apple CoreML format.  
+Convert MXNet models into Apple CoreML format.
 This tool helps convert MXNet models into Apple CoreML format which can then be run on Apple devices.
 
-### [prisma-ai/torch2coreml: Torch7 -> CoreML](https://github.com/prisma-ai/torch2coreml)  
+### [prisma-ai/torch2coreml: Torch7 -> CoreML](https://github.com/prisma-ai/torch2coreml)
 This tool helps convert Torch7 models into Apple CoreML format which can then be run on Apple devices.
 
 ### [woffle/torch2ios: Torch7 Library - Convert NN Models To iOS Format](https://github.com/woffle/torch2ios)
