@@ -33,7 +33,7 @@ The sheet below is a overview of all convertors in github (not only contain offi
 **General framework for converting between all kinds of neural networks**
 
 [ONNX](https://github.com/onnx) is an effort to unify converters for neural networks in order to bring some sanity to the NN world. Released by Facebook and Microsoft.
-More info [here](https://research.fb.com/facebook-and-microsoft-introduce-new-open-ecosystem-for-interchangeable-ai-frameworks/).
+More info [here](http://onnx.ai).
 
 ## MMdnn
 
