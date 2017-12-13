@@ -360,7 +360,7 @@ Tools for converting Keras models for use with other ML frameworks (coreML, Tens
 
 ### [Apple & Google: Tensorflow to CoreML converter](https://github.com/tf-coreml/tf-coreml)
 
-Google colaborated with Apple to create a Tensorflow to CoreML converter [announcement](https://developers.googleblog.com/2017/12/announcing-core-ml-support.html).
+Google collaborated with Apple to create a Tensorflow to CoreML converter [announcement](https://developers.googleblog.com/2017/12/announcing-core-ml-support.html).
 
 Support for Core ML is provided through a tool that takes a TensorFlow model and converts it to the Core ML Model Format (.mlmodel).
 
