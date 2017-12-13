@@ -358,8 +358,7 @@ Keras models with python-based convertor to provide embedding in IOS platform.
 
 Tools for converting Keras models for use with other ML frameworks (coreML, TensorFlow).
 
-### [Apple & Google: Tensorflow to CoreML converter]
-(https://github.com/tf-coreml/tf-coreml)
+### [Apple & Google: Tensorflow to CoreML converter](https://github.com/tf-coreml/tf-coreml)
 
 Google colaborated with Apple to create a Tensorflow to CoreML converter [announcement](https://developers.googleblog.com/2017/12/announcing-core-ml-support.html).
 
