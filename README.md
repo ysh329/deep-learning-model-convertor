@@ -20,7 +20,7 @@ The sheet below is a overview of all convertors in github (not only contain offi
 |**[neon](https://github.com/NervanaSystems/ModelZoo)**| None | None | None | None | None |   -   | None | None | None | None | None | None | None |
 |**[pytorch](https://github.com/pytorch/vision)** :sparkles:| None | [pytorch2caffe](https://github.com/longcw/pytorch2caffe) [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | [onnx-caffe2](https://github.com/onnx/onnx-caffe2) | ONNX | None | None |   -   | None | [pytorch2keras](https://github.com/nerox8664/pytorch2keras) [nn-transfer](https://github.com/gzuidhof/nn-transfer) | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | [pytorch2keras](https://github.com/nerox8664/pytorch2keras) (over Keras) [pytorch-tf](https://github.com/leonidk/pytorch-tf) | None | [onnx-coreml](https://github.com/onnx/onnx-coreml) |
 |**[torch](https://github.com/torch/torch7/wiki/ModelZoo)** | None | [fb-caffe-exts/torch2caffe](https://github.com/facebook/fb-caffe-exts#torch2caffe) [mocha](https://github.com/kuangliu/mocha) [trans-torch](https://github.com/Teaonly/trans-torch) [th2caffe](https://github.com/e-lab/th2caffe) | [Torch2Caffe2](https://github.com/ca1773130n/Torch2Caffe2) | None | None | None |[convert_torch_to_pytorch](https://github.com/clcarwin/convert_torch_to_pytorch)|   -   | None | None | None | None | [torch2coreml](https://github.com/prisma-ai/torch2coreml) [torch2ios](https://github.com/woffle/torch2ios) |
-|**[keras](https://github.com/fchollet/deep-learning-models)** :sparkles: | [MMdnn](https://github.com/Microsoft/MMdnn) | [MMdnn](https://github.com/Microsoft/MMdnn) [nn_tools](https://github.com/hahnyuan/nn_tools) | None | [MMdnn](https://github.com/Microsoft/MMdnn) | None | None | [MMdnn](https://github.com/Microsoft/MMdnn) [nn-transfer](https://github.com/gzuidhof/nn-transfer) | None |   -   | None | [nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow) [keras_to_tensorflow](https://github.com/alanswx/keras_to_tensorflow) [keras_to_tensorflow](https://github.com/amir-abdi/keras_to_tensorflow) [MMdnn](https://github.com/Microsoft/MMdnn) | None | [apple/coremltools](https://apple.github.io/coremltools/) :sparkles: [model-converters](https://github.com/triagemd/model-converters) [keras_models](https://github.com/Bulochkin/keras_models) [MMdnn](https://github.com/Microsoft/MMdnn) |
+|**[keras](https://github.com/fchollet/deep-learning-models)** :sparkles: | [MMdnn](https://github.com/Microsoft/MMdnn) | [MMdnn](https://github.com/Microsoft/MMdnn) [nn_tools](https://github.com/hahnyuan/nn_tools) [keras2caffe](https://github.com/uhfband/keras2caffe) | None | [MMdnn](https://github.com/Microsoft/MMdnn) | None | None | [MMdnn](https://github.com/Microsoft/MMdnn) [nn-transfer](https://github.com/gzuidhof/nn-transfer) | None |   -   | None | [nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow) [keras_to_tensorflow](https://github.com/alanswx/keras_to_tensorflow) [keras_to_tensorflow](https://github.com/amir-abdi/keras_to_tensorflow) [MMdnn](https://github.com/Microsoft/MMdnn) | None | [apple/coremltools](https://apple.github.io/coremltools/) :sparkles: [model-converters](https://github.com/triagemd/model-converters) [keras_models](https://github.com/Bulochkin/keras_models) [MMdnn](https://github.com/Microsoft/MMdnn) |
 |**[darknet](https://pjreddie.com/darknet/imagenet/)**| None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None | None | None | [pytorch-caffe-darknet-convert](https://github.com/marvis/pytorch-caffe-darknet-convert) | None | None |   -   | [DW2TF](https://github.com/jinyu121/DW2TF) [darkflow](https://github.com/thtrieu/darkflow) [lego_yolo](https://github.com/dEcmir/lego_yolo) | None | None |
 |**[tensorflow](https://github.com/tensorflow/models)** :sparkles: | [MMdnn](https://github.com/Microsoft/MMdnn) | [MMdnn](https://github.com/Microsoft/MMdnn) [nn_tools](https://github.com/hahnyuan/nn_tools)| None | [crosstalk](https://github.com/Microsoft/CNTK/tree/master/bindings/python/cntk/contrib/crosstalk) [MMdnn](https://github.com/Microsoft/MMdnn) | None | None | [pytorch-tf](https://github.com/leonidk/pytorch-tf) [MMdnn](https://github.com/Microsoft/MMdnn) | None | [model-converters](https://github.com/triagemd/model-converters) [nn_tools](https://github.com/hahnyuan/nn_tools) [convert-to-tensorflow](https://github.com/goranrauker/convert-to-tensorflow) [MMdnn](https://github.com/Microsoft/MMdnn) | None |   -   | None | [tfcoreml](https://github.com/tf-coreml/tf-coreml) [MMdnn](https://github.com/Microsoft/MMdnn) |
 |**[chainer](http://docs.chainer.org/en/stable/reference/caffe.html)**| None | None | None | None | None | None |[chainer2pytorch](https://github.com/vzhong/chainer2pytorch)| None | None | None | None | - | None |
@@ -84,6 +84,23 @@ Convert MXNet model to Caffe model.
 ### [kuangliu/mocha](https://github.com/kuangliu/mocha)
 
 Convert torch model to/from caffe model easily.
+
+### [uhfband/keras2caffe: Keras to Caffe model converter tool](https://github.com/uhfband/keras2caffe)
+
+
+This tool tested with Caffe 1.0, Keras 2.1.2 and TensorFlow 1.4.0
+
+Working conversion examples:
+- Inception V3
+- Inception V4 (https://github.com/kentsommer/keras-inceptionV4)
+- Xception V1
+- SqueezeNet (https://github.com/rcmalli/keras-squeezenet)
+- VGG16
+
+
+Problem layers:
+- ZeroPadding2D
+- MaxPooling2D and AveragePooling2D with asymmetric padding
 
 ### [facebook/fb-caffe-exts/torch2caffe](https://github.com/facebook/fb-caffe-exts#torch2caffe)
 
