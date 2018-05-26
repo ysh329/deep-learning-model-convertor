@@ -308,7 +308,7 @@ Tools for converting Keras models for use with other ML frameworks (coreML, Tens
 
 ### [hahnyuan/nn_tools](https://github.com/hahnyuan/nn_tools)
 
-a neural network convertor for models among caffe tensorfloe keras
+a neural network convertor for models among caffe tensorflow keras
 
 ### [ethereon/caffe-tensorflow: Caffe models in TensorFlow](https://github.com/ethereon/caffe-tensorflow)
 
