@@ -124,6 +124,24 @@ A torch-nn to caffe converter for specific layers.
 
 a neural network convertor for models among caffe tensorflow keras
 
+### [xxradon/PytorchToCaffe: Pytorch model to caffe model, supported pytorch 0.3, 0.3.1, 0.4, 0.4.1 ,1.0 , 1.0.1 , 1.2 ,1.3 .notice that only pytorch 1.1 have some bugs](https://github.com/xxradon/PytorchToCaffe)  
+
+Providing a tool for neural network frameworks for pytorch and caffe.
+
+The nn_tools is released under the MIT License (refer to the LICENSE file for details).
+
+features: 
+
+1. Converting a pytorch model to caffe model.
+2. Some convenient tools of manipulate caffemodel and prototxt quickly(like get or set weights of layers).  
+3. Support pytorch version >= 0.2.(Have tested on 0.3,0.3.1, 0.4, 0.4.1 ,1.0, 1.2)  
+4. Analysing a model, get the operations number(ops) in every layers.  
+Noting: pytorch version 1.1 is not supported now  
+
+requirements  
+1. Python2.7 or Python3.x
+2. Each functions in this tools requires corresponding neural network python package (pytorch and so on).
+
 ## Caffe2 convertor
 
 **Convert to Caffe2 model**.
